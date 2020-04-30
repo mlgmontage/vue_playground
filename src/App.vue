@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="container" id="app">
     <HelloWorld msg="Message" />
     <Todo />
   </div>
@@ -13,8 +13,7 @@ export default {
   name: "App",
   components: {
     HelloWorld,
-    Todo
-  }
+    Todo,
+  },
 };
 </script>
-
